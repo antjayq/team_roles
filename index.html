@@ -1,8 +1,52 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css><script src=http://code.jquery.com/jquery-1.8.2.min.js></script><script src=http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js></script><title>Team Roles</title><link rel="shortcut icon" type=image/x-icon href=static/logo.png><script async src="https://www.googletagmanager.com/gtag/js?id=UA-112438178-1"></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><div id=head-content><title data-i18n=head.title></title><link rel="shortcut icon" type=image/x-icon href=static/logo.png></div><link rel=stylesheet href=http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css><script src=http://code.jquery.com/jquery-1.8.2.min.js></script><script src=http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-112438178-1"></script><script>window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-112438178-1');</script><style media=screen>div.footer p {
+      gtag('config', 'UA-112438178-1');</script><style media=screen>div.footer {
+        position: sticky;
+      }
+      div.footer p {
         font-weight: lighter;
         padding-left: 20px;
-      }</style><link href=/static/css/app.72bc93a42b6356962293a309f0b8fee2.css rel=stylesheet></head><body><div data-role=page><div id=app></div><div class=footer data-role=footer data-position=fixed data-theme=e><p>Please contact <a href="mailto:jq@angelabor.com?Subject=team%20roles" target=_top>jq@angelabor.com</a> for feature request or bug report.</p></div></div><script type=text/javascript src=/static/js/manifest.78af5aef2a3bcb6fc631.js></script><script type=text/javascript src=/static/js/vendor.17d770379dd0b1b3199f.js></script><script type=text/javascript src=/static/js/app.027d0bb3b81beec873b2.js></script></body></html>
+        margin: 0;
+      }</style><script src=static/locales/translations.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/i18next/8.1.0/i18next.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/1.2.0/jquery-i18next.min.js></script><script src=https://unpkg.com/vue></script><script type=text/javascript>var client_language = navigator.language.toLowerCase().replace('-','_');
+      if (!client_language || client_language.indexOf('en') >= 0){
+        client_language = 'en';
+      }
+
+      i18next.init({
+        lng: client_language, // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+        resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+          en: {
+            translation: enTranslation
+          },
+          zh_cn: {
+            translation: cnsTranslation
+          }
+        }
+      }, function(err, t) {
+        // for options see
+        // https://github.com/i18next/jquery-i18next#initialize-the-plugin
+        jqueryI18next.init(i18next, $);
+      });</script><link href=/static/css/app.43821836daa8f5380adb3d48e689bbe4.css rel=stylesheet></head><body><div id=page data-role=page><div id=language-detector class=right><span data-i18n=general.language></span>:<select v-model=selected_language class=language data-role=none><option data-i18n=language.cns value=zh_cn></option><option data-i18n=language.en value=en></option></select></div><div id=app></div><div id=footer class=footer data-role=footer data-position=fixed data-theme=e><p data-i18n=[html]support.contact></p></div></div><script type=text/javascript>function localize(){
+        $("#head-content").localize();
+        $("#language-detector").localize();
+        $("#page").localize();
+      }
+
+      var languageDetector = new Vue({
+        el: '#language-detector',
+        data: {
+          selected_language: client_language,
+        },
+        watch: {
+          selected_language: function (newVal) {
+            i18next.changeLanguage(newVal);
+            localize();
+          }
+        }
+      })
+
+      $(function() {
+        localize();
+      });</script><script type=text/javascript src=/static/js/manifest.bcba360c26c618fec5c0.js></script><script type=text/javascript src=/static/js/vendor.17d770379dd0b1b3199f.js></script><script type=text/javascript src=/static/js/app.0f66fe8703f326a6479c.js></script></body></html>
