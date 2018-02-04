@@ -29,45 +29,45 @@ const cnsTranslation = {
     },
     'explorer': {
       'name': '浏览者',
-      'comment': 'You are the curious Explorer。 You explore available options, develop contacts, and negotiate for resources on behalf of the team。 You are enthusiastic team members, who identify and work with external stakeholders to help the team accomplish its objective。 On the downside, you may lose enthusiasm quickly and are often overly optimistic。 You might forget to follow up on a lead。',
-      'suggest': 'The Explorers who search available options, develop contacts, and negotiate for resources on behalf of the team。'
+      'comment': '你是充满好奇心的浏览者。 你摸索可用的选项, 建立人际关系, 并为团队物资做谈判。 你是一个充满热情的队员, 你能识别周遭的利益相关者并与之共事帮助团队达到目的。 从反面来看, 你会太过乐观, 你的热情会来的快去的也快。 你有可能会忘记持续追寻潜在的机会。',
+      'suggest': '摸索可用选项, 建立人际关系, 并为团队物资做谈判的浏览者。'
     },
     'analyst': {
       'name': '分析师',
-      'comment': 'You are the Analyst who is best at evaluating ideas that other people (often Innovators) come up with。 You are shrewd and objective, and you carefully weigh the pros and cons of all the options before coming to a decision。 You are critical thinkers and very strategic in your approach。 You are often perceived as detached or unemotional。 Sometimes you are poor motivators who react to events rather than instigating them。',
-      'suggest': 'The Analysts who are best at evaluating ideas that other people (often Innovators) come up with。'
+      'comment': '你是善于评估他人(通常是智多星)主意的分析师。 你很客观敏锐, 而且你会在做决定之前细心地盘算所有选项的好处和坏处。 你习惯批判性思维, 并且处理事情方法都极富战略意义。 你常被误解为离群的冷漠的人。 你平时不擅长鼓舞策动事件, 更愿意对发生的事作出反应。',
+      'suggest': '善于评估他人(通常是智多星)主意的分析师。'
     },
 
     'implementer': {
-      'name': '执行者',
-      'comment': 'You are the Executive who gets things done。 You turn the team\'s ideas and concepts into practical actions and plans。 You are the person people can count on to get the job done。 On the downside, you may be inflexible and can be somewhat resistant to relinquish your plans in favor of positive changes。',
-      'suggest': 'The Implementers who turn the team\'s ideas and concepts into practical actions and plans。'
+      'name': '实干家',
+      'comment': '你是能把事情妥善完成的行政官。 你将团队的想法主意变成切实可行的计划和行动。 你是大家都信任的能干事的人。 从反面看, 你也许不太灵活, 比较抗拒为积极的变化而放手自己着手的计划。',
+      'suggest': '将团队的想法主意变成切实可行的计划和行动的实干家。'
     },
     'coordinator': {
       'name': '协调者',
-      'comment': 'You are the Leader who guides the team to the objectives。 You are excellent listeners and you are naturally able to recognize the value that each team member brings to the table。 You are calm and good-natured, and delegate tasks very effectively。 On the downside, you may delegate away too much personal responsibility and may tend to be manipulative。',
-      'suggest': 'The Coordinators who recognize the value that each team member brings to the table and guide the team to the objectives。'
+      'comment': '你是带领团队实现目标的领导者。 你是杰出的聆听者, 你能很自然地识别出每个队员给团队带来的价值。 你显得平静温厚, 而且能很有效地委派任务。 从反面看, 你有可能分派太多私人的职责甚至摆布他人。',
+      'suggest': '能识别出每个队员给团队带来的价值并带领团队实现目标的协调者。'
     },
     'expert': {
       'name': '专家',
-      'comment': 'You are the Expert who has specialized knowledge that is needed to get the job done。 You pride yourself on your skills and abilities, and you work to maintain your professional status。 Your job within the team is to be an expert in the area, and you commit yourself fully to your field of expertise。 This may limit your contribution, and lead to a preoccupation with technicalities at the expense of the bigger picture。',
-      'suggest': 'The Experts who have specialized knowledge that is needed to get the job done。'
+      'comment': '你是拥有完成任务所需的专业知识的专家。 你为自己的能力和技巧感到自豪, 你为维护自己的职业地位而工作。 你在团队里负责成为该领域的专家, 你会为你的专业领域灌注全部精力。 这很可能限制你对团队对贡献, 导致对技术性的全神贯注以至于做不好从全局考虑。',
+      'suggest': '拥有完成任务所需的专业知识的行家。'
     },
 
     'driver': {
-      'name': '鞭策者',
-      'comment': 'You are the Driver who challenges the team to improve。 You are dynamic and usually extroverted who enjoy stimulating others, questioning norms, and finding the best approaches for solving problems。 You are the one who shakes things up to make sure that all possibilities are considered and that the team does not become complacent。 You often see obstacles as exciting challenges and you tend to have the courage to push on when others feel like quitting。 Your potential weaknesses may be that you are argumentative and that you may offend people\'s feelings。',
-      'suggest': 'The Shapers who shake things up to make sure that all possibilities are considered and that the team does not become complacent。'
+      'name': '驾驶员',
+      'comment': '你是驱动团队进步的驾驶员。 你精力充沛并乐于激励他人, 质疑行为准则, 而且能找到解决问题的最佳途径。 你是那个为了考量所有可能性不让队伍变得自满而去改变事务的人。 你时常把阻碍当成令人刺激的挑战, 而且当他人感到退缩的时候你常有继续前行的勇气。 你潜在的弱点是喜欢与人争辩经常触怒他人。',
+      'suggest': '为了考量所有可能性不让队伍变得自满而去改变事务的鞭策者。'
     },
     'teammate': {
-      'name': '凝聚者',
-      'comment': 'You are the Active Listener who provides support and make sure that people within the team are working together effectively。 You fill the role of negotiators within the team and you are flexible, diplomatic and perceptive。 You are very popular and capable in your own right, but prioritize team cohesion and helping people get along。 Your weaknesses may be a tendency to be indecisive and to maintain uncommitted positions during discussions and decision-making。',
-      'suggest': 'The Teammates who provide support and make sure that people within the team are working together effectively。'
+      'name': '集结者',
+      'comment': '你是提供协助确保团队能够有效合作的集结者。 你在团队里承担了谈判者的角色, 而且你很灵活, 有外交手腕和洞察力。 你很受欢迎也善于自保, 但还是把团队凝聚力和帮助人们和睦相处作为首要任务。 你的弱点是优柔寡断, 在讨论和做决定时偏向于保持中立。',
+      'suggest': '提供协助确保团队能够有效合作的聆听者。'
     },
     'closer': {
-      'name': '完成者',
-      'comment': 'You are the Closer who sees projects getting completed thoroughly。 You ensure there have been no errors or omissions and you pay attention to the smallest of details。 You are described as perfectionists who are orderly, conscientious and anxious。 Most effectively worked at the end of tasks to polish, perfect, and scrutinize the work for errors, subjecting it to the highest standards of quality control。 However, you could be accused of taking your perfectionism to extremes。 You worry unnecessarily and find it hard to delegate。',
-      'suggest': 'The Proofreaders who ensure there have been no errors or omissions and you pay attention to the smallest of details。'
+      'name': '终结者',
+      'comment': '你是见证项目彻底完成的终结者。 你确保任务中没有任何错误和疏忽, 你关注得到最微小的细节。 你被称作有条理的, 谨慎的, 充满渴望的完美主义者。 最适合在任务的末尾进行检查和修改, 并能够提交最高标准的质量管理。 但是, 你有可能被指责太过完美主义。 你担心得太多, 而且很难委托他人。',
+      'suggest': '确保任务中没有任何错误和疏忽, 关注得到最微小的细节的校对员。'
     }
   },
   'quotes': {
