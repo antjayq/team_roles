@@ -80,9 +80,72 @@ const enTranslation = {
   },
   'result': {
     'title': 'Test Result',
+    'teammate': 'Teammate Suggestions',
     'suggestion': {
       'godlike': 'You are exceptional! Team up with like-minded people and achieve your greatness.',
       'opening': 'Awesome! Your ideal team member(s) would be: '
     }
+  },
+  'question': {
+    'innovator-1': 'I am creative, imaginative, free-thinking.',
+    'innovator-2': 'I am a wellspring of original ideas.',
+    'innovator-3': 'I am good at solving difficult problems in unconventional ways.',
+    'innovator-4': 'I prefer to work apart from the team.',
+    'innovator-5': 'I tend to ignore less important things.',
+
+    'explorer-1': 'I am outgoing, enthusiastic, communicative.',
+    'explorer-2': 'I can be a salesperson who is the source of vitality.',
+    'explorer-3': 'I use my curiosity and inquisitive nature to discover ideas and bring back to the team.',
+    'explorer-4': 'I explore opportunities and develops contacts.',
+    'explorer-5': 'I have a tendency to be optimistic.',
+    'explorer-6': 'I am easily diverted.',
+    'explorer-7': 'Others are often receptive to me and my thoughts.',
+
+    'analyst-1': 'I am sober, strategic, discerning',
+    'analyst-2': 'I seek all options and judge accurately.',
+    'analyst-3': 'I provide a logical eye.',
+    'analyst-4': 'I make impartial judgments where required and weighs up the team\'s options in a dispassionate way.',
+    'analyst-5': 'I provide critique with the expectation of improving performance.',
+    'analyst-6': 'I have a tendency to make decisions slowly.',
+
+    'coordinator-1': 'I am a mature, confident, excellent chairperson.',
+    'coordinator-2': 'I am the decision maker and delegator.',
+    'coordinator-3': 'I take on the traditional team-leader role.',
+    'coordinator-4': 'I can identify talent and clarify goals.',
+    'coordinator-5': 'I focus on the team\'s objectives and draw out team members and delegate work appropriately.',
+
+    'implementer-1': 'I am disciplined, reliable, conservative and efficient.',
+    'implementer-2': 'I turn ideas into practical actions and organizes work that needs to be done.',
+    'implementer-3': 'I have a tendency to plan a workable strategy and carry it out as efficiently as possible.',
+    'implementer-4': 'I tend to resist unproven ideas.',
+    'implementer-5': 'I am inflexible and slow to respond to new possibilities.',
+    'implementer-6': 'I work systematically and efficiently.',
+    'implementer-7': 'I am very well organized.',
+
+    'expert-1': 'I am focused, self-starting and dedicated.',
+    'expert-2': 'I provide knowledge & skills in rare supply.',
+    'expert-3': 'I bring in-depth knowledge of a key area to the team.',
+    'expert-4': 'I have a tendency to overload people with information.',
+    'expert-5': 'I contribute on a narrow front and dwell on the technicalities.',
+
+    'driver-1': 'I am challenging, dynamic, and thrive on pressure.',
+    'driver-2': 'I am the courage to overcome obstacles.',
+    'driver-3': 'I bring the competitive drive to ensure that the team keeps moving and does not lose focus or momentum.',
+    'driver-4': 'I am prone to provocation, impatience, and sometimes offend peoples’ feelings.',
+    'driver-5': 'I could be seen as abrasive.',
+    'driver-6': 'I can be aggressive and bad humored in my attempts to get things done.',
+
+    'teammate-1': 'I am co-operative, mild, perceptive and diplomatic.',
+    'teammate-2': 'I help the team to gel.',
+    'teammate-3': 'I have the versatility to identify the work required and complete it on behalf of the team.',
+    'teammate-4': 'I am indecisive in crunch situations and tends to avoid confrontation.',
+    'teammate-5': 'I am hesitant to make unpopular decisions.',
+
+    'closer-1': 'I am painstakingly conscientious, anxious.',
+    'closer-2': 'I can capture errors and omissions.',
+    'closer-3': 'I always meet deadlines and work to highest standards.',
+    'closer-4': 'I am very concerned with deadlines.',
+    'closer-5': 'I will push the team to make sure the job is completed on time.',
+    'closer-6': 'I am a perfectionist.'
   }
 }
