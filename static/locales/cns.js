@@ -4,7 +4,7 @@ const cnsTranslation = {
     'title': '9类贝尔宾团队角色'
   },
   'general': {
-    'language': '语言',
+    'language': '语言: ',
     'yes': '是的',
     'no': '不对',
     'continue': '继续',

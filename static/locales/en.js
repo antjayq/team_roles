@@ -4,7 +4,7 @@ const enTranslation = {
     'title': '9 Belbin Team Roles'
   },
   'general': {
-    'language': 'Language',
+    'language': 'Language: ',
     'yes': 'Yes',
     'no': 'No',
     'continue': 'Continue',
