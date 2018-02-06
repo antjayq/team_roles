@@ -16,6 +16,9 @@
       if (!client_language || client_language.indexOf('en') >= 0){
         client_language = 'en';
       }
+      if (client_language != 'en') {
+        client_language = 'zh_cn'; // apply Chinese as the default language
+      }
 
       i18next.init({
         lng: client_language, // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
