@@ -76,7 +76,7 @@ const cnsTranslation = {
   },
   'support': {
     'your-email': '你的E-mail地址是什么?',
-    'contact': '提议新功能或反馈问题请联系 <a href="mailto:jq@angelabor.com?Subject=team%20roles" target="_top">jq@angelabor.com</a>'
+    'contact': '提议新功能或反馈问题请联系 <a href="mailto:jq@atlasian.ca?Subject=team%20roles" target="_top">jq@atlasian.ca</a>'
   },
   'result': {
     'title': '测试结果',

@@ -76,7 +76,7 @@ const enTranslation = {
   },
   'support': {
     'your-email': 'What is your email?',
-    'contact': 'Please contact <a href="mailto:jq@angelabor.com?Subject=team%20roles" target="_top">jq@angelabor.com</a> for feature request or bug report.'
+    'contact': 'Please contact <a href="mailto:jq@atlasian.ca?Subject=team%20roles" target="_top">jq@atlasian.ca</a> for feature request or bug report.'
   },
   'result': {
     'title': 'Test Result',
